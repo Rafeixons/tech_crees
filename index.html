@@ -32,7 +32,7 @@
                     </li>
 
                 </ul>
-                <button type="button" class="btn btn-outline-primary">Área do Aluno</button>
+                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#areadoaluno">Área do Aluno</button>
             </div>
         </div>
     </nav>
@@ -44,12 +44,12 @@
                     <div class="col-md-6">
                         <h1>Sua carreira em tecnologia começa aqui</h1>
                         <p>Conectamos talentos tech às melhores oportunidades do mercado.</p>
-                        <a href="#" class="btn btn-primary btn-custom">Ver Vagas</a>
+                        <a href="" class="btn btn-primary btn-custom">Ver Vagas</a>
                         <a href="#" class="btn btn-outline-light">Cursos Gratuitos</a>
                     </div>
                     <div class="col-md-6 text-center">
                         <img src="img/capa.jpg
-                        " alt="Parceria profissional">
+                        " alt="Parceria profissional" style="border-radius: 15px;">
                     </div>
                 </div>
             </div>
@@ -62,37 +62,182 @@
         <br>
         <section class="hero container">
             <div class="row gap-4 align-items-center">
-            <div class="card col-lg" style="width: 18rem;">
-                <img src="img/card 1.jpeg" class="card-img-top " >
-                <div class="card-body">
-                    <h5 class="card-title">Desenvolvedor Back-end</h5>
-                    
-                    <a href="#" class="btn btn-primary">Cadastre-se aqui</a>
+                <div class="card col-lg" style="width: 18rem;">
+                    <img src="img/card 1.jpeg" class="card-img-top ">
+                    <div class="card-body">
+                        <h5 class="card-title">Desenvolvedor Back-end</h5>
+                        <p>O desenvolvedor back-end precisa dominar linguagens de programação como Java, Python ou Node.js, além de compreender bancos de dados (SQL e NoSQL) e arquitetura de APIs. É essencial ter experiência com servidores, controle de versões (Git) e integração de sistemas. Pensamento lógico, atenção aos detalhes e capacidade de resolver problemas complexos completam o perfil ideal.</p>
+                        <span class="badge text-bg-info">Remoto</span>
+                        <br>
+                        <br>
+                        <a href="https://share.google/SsUCNiHavzKcHZWgx" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cadastroModal">
+                            Cadastre-se aqui
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="card col-lg" style="width: 18rem;">
-                <img src="img/card 2.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Desenvolvedor Ciber-securit</h5>
-                    <a href="#" class="btn btn-primary">Cadastre-se aqui</a>
+                <div class="card col-lg" style="width: 18rem;">
+                    <img src="img/card 2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Desenvolvedor Ciber-securit</h5>
+                        <p>Para atuar como desenvolvedor em cibersegurança, é essencial dominar programação segura, análise de vulnerabilidades e gestão de riscos digitais. Conhecimentos em criptografia, firewalls, protocolos de rede e monitoramento de sistemas são fundamentais. Além disso, a capacidade de pensar de forma analítica e preventiva ajuda a antecipar ameaças e proteger dados sensíveis.</p>
+                        <span class="badge text-bg-info">Remoto</span>
+                        <br>
+                        <br>
+                        <a href="https://share.google/bYyy9UzsOkw9kQ4Qk" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cadastroModal">
+                            Cadastre-se aqui
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="card col-lg" style="width: 18rem;">
-                <img src="img/card 3.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Analista de Sistemas</h5>
-                    <a href="#" class="btn btn-primary">Cadastre-se aqui</a>
+                <div class="card col-lg" style="width: 18rem;">
+                    <img src="img/card 3.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Analista de Sistemas</h5>
+                        <p>O analista de sistemas deve ter sólida capacidade de levantamento de requisitos, modelagem de processos e documentação técnica. É essencial compreender arquitetura de software, integração de sistemas e bancos de dados. Além disso, habilidades de comunicação, trabalho em equipe e visão estratégica são fundamentais para alinhar tecnologia às necessidades do negócio.</p> 
+                        <span class="badge text-bg-info">Remoto</span>
+                        <br>
+                        <br>
+                        <a href="https://share.google/pXGpYDJKw8kvR00MY" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cadastroModal">
+                            Cadastre-se aqui
+                        </a>
+                    </div>
                 </div>
+
             </div>
 
+        </section>
+
+        </section>
+
+        <div class="modal fade" id="cadastroModal" tabindex="-1" aria-labelledby="cadastroModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="cadastroModalLabel">Cadastre-se</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Preencha seus dados para se cadastrar.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        <button type="button" class="btn btn-primary">Salvar</button>
+                    </div>
+                </div>
+            </div>
         </div>
-            
+
+
+        <div class="modal fade" id="areadoaluno" tabindex="-1" aria-labelledby="areadoalunoLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="areadoalunoLabel">Cadastre-se</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Login efetuado.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        <button type="button" class="btn btn-primary">Salvar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <br>
+
+         <section class="hero">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h1>Transforme sua Carreira com Cursos de Tecnologia</h1>
+                        <p>Investir em aprendizado contínuo é o caminho para se manter competitivo e preparado para os desafios digitais.</p>
+                        <a href="#" class="btn btn-primary btn-custom">Ver Cursos</a>
+                        <a href="#" class="btn btn-outline-light">Cursos Gratuitos</a>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="img/capa cursos.jpg"
+                        alt="Parceria profissional" style="border-radius: 15px;">
+                    </div>
+                </div>
+            </div>
         </section>
-        
+
+        <br>
+
+        <br>
+
+        <br>
+
+
+        <!-- cursos -->
+        <section class="hero container">
+            <div class="row gap-4 align-items-center">
+                <div class="card col-lg" style="width: 18rem;">
+                    <img src="img/Alura Back-end.png" class="card-img-top ">
+                    <div class="card-body">
+                        <h5 class="card-title">Alura Back-end</h5>
+                        <p>
+                           Uma trilha completa e progressiva que ensina desde fundamentos de programação até arquitetura avançada de sistemas, cobrindo linguagens como Java, Python, Node.js, PHP e .NET. É indicado tanto para iniciantes quanto para profissionais que desejam aprofundar práticas modernas de desenvolvimento.
+                        </p>
+                        <br>
+                        <br>
+                        <a href="https://www.alura.com.br/cursos-online-back-end?srsltid=AU7gw4V-Z8bt1B7zYTNbnSeyHWqJjKUCC1_gh5jPK7nCpxbhUR46RxZa" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cadastroModal">
+                            Cadastre-se aqui
+                        </a>
+                    </div>
+                </div>
+                <div class="card col-lg" style="width: 18rem;">
+                    <img src="img/CompTIA Security+.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">CompTIA Security+</h5>
+                        <p>
+                           A certificação CompTIA Security+ é uma das mais reconhecidas mundialmente para quem deseja iniciar ou consolidar carreira em cibersegurança. Ela cobre fundamentos práticos de segurança, como gestão de ameaças, criptografia, arquitetura de redes seguras e operações de segurança, sendo exigida em muitas vagas júnior e valorizada em multinacionais.
+                        </p>
+                        <br>
+                        <br>
+                        <a href="https://www.comptia.org/en-us/certifications/security/" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cadastroModal">
+                            Cadastre-se aqui
+                        </a>
+                    </div>
+                </div>
+                <div class="card col-lg" style="width: 18rem;">
+                    <img src="img/Microsoft Azure Administrator.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Microsoft Azure Administrator</h5>
+                        <p> Valida habilidades práticas para gerenciar ambientes de nuvem no Azure, incluindo redes virtuais, armazenamento, identidade e segurança. É uma certificação de nível intermediário, muito valorizada para quem atua em administração de sistemas e infraestrutura em nuvem.</p> 
+                        <br>
+                        <br>
+                        <a href="https://learn.microsoft.com/pt-br/credentials/certifications/azure-administrator/" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cadastroModal">
+                            Cadastre-se aqui
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card col-lg" style="width: 18rem;">
+                    <img src="img/Computacao em Nuvem.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Computacao em Nuvem</h5>
+                        <P>Certificação introdutória que valida conhecimentos fundamentais em computação em nuvem, transformação digital, dados e inteligência artificial no ecossistema Google Cloud. Ele é ideal para quem deseja entender como a nuvem pode apoiar negócios e não exige pré-requisitos técnicos avançados.</P> 
+                        <br>
+                        <br>
+                        <a href="https://www.google.com/aclk?sa=L&pf=1&ai=DChsSEwik_be16oWXAxU-QkgAHdRwDCoYACICCAEQARoCY2U&co=1&ase=2&gclid=Cj0KCQjw8c3VBhCsARIsAA_xJ91CM_LB8I2KTEBSi6wUlP5tmjP2wgFh5cdSpAqCr34cRgKgF71AmvgaAuJHEALw_wcB&cid=CAASugHkaOoDyurq75smsAoM_RnKyM_U3nZuQCjtwRaPS-Bv9Oz1CatMQpquTqk9XMaH5vio_BbcBPacMsiDHNBi2ZmYOqIGn8qgvUGb5IGUkGUVlj2xm6Gdo9e8SN56FZfl3v-TXMKal-0Ka03kpiAFqiS4mxubsEmkH-nNZphw4Yv7qlJzrp0C9Xma0Tn8YHLaAbZwieE6ssQ0_2TZrCxfjcZ2VMYnQjFosrDvi0IVV_32-UgrCvjyO-4JlQE&cce=2&category=acrcp_v1_32&sig=AOD64_0HtSGs9mbe3m9myFhsRmFWFEwqzw&q&nis=4&adurl=https://aws.amazon.com/pt/free/compute/?trk%3Dbdcbd2f7-9d39-487f-9ca9-33a1825e127c%26sc_channel%3Dps%26ef_id%3DCj0KCQjw8c3VBhCsARIsAA_xJ91CM_LB8I2KTEBSi6wUlP5tmjP2wgFh5cdSpAqCr34cRgKgF71AmvgaAuJHEALw_wcB:G:s%26gads_camp%3D23533256329%26gads_ag%3D197930744523%26gads_ad%3D816175851967%26gads_kw%3Dcomputa%25C3%25A7%25C3%25A3o%2520em%2520nuvem%26gads_matchtype%3Dp%26gads_network%3Dg%26gads_device%3Dc%26gads_geo%3D9220266%26gad_campaignid%3D23533256329%26gbraid%3D0AAAAADjHtp8X0MJ-j33ptv93Yt7Zwz37F%26gclid%3DCj0KCQjw8c3VBhCsARIsAA_xJ91CM_LB8I2KTEBSi6wUlP5tmjP2wgFh5cdSpAqCr34cRgKgF71AmvgaAuJHEALw_wcB&ved=2ahUKEwjo5rK16oWXAxWeg5UCHbzjCuIQ0Qx6BAgREAE" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cadastroModal">
+                            Cadastre-se aqui
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
         </section>
-
-
-
 
     </main>
 
